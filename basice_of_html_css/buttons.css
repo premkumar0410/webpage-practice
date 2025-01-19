@@ -1,0 +1,97 @@
+.subscribe-button{
+    background-color: rgb(201, 0, 0);
+    border: none;
+    height: 36px;
+    width: 110;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 8px;
+    transition: opacity 0,15s;
+}
+.subscribe-button:hover{
+    opacity:0.7;
+}
+.subscribe-button:active{
+    opacity: 0.4;
+}
+
+.join-button{
+   background-color: white;
+   border-color: rgb(40, 137, 221);  
+   border-style: solid;     
+   height: 36px;
+   width: 70px;
+   color:  rgb(40, 137, 221);  
+   cursor: pointer;
+   border-radius: 2px;
+   margin-right: 8px;
+   transition: background-color 1s,color 1s;
+
+}
+.join-button:hover{
+background-color:  rgb(40, 137, 221);  ;
+color: white;
+border: none;
+}
+
+.join-button:active{
+opacity: 0.5;
+}
+
+.tweet-button{
+color: white;
+background-color: rgb(29, 147, 230);
+border:  none;
+border-radius: 20px;
+height: 36px;
+width: 75px;
+font-weight:bold ;
+cursor: pointer;
+font-size: 16px;
+
+}
+
+.tweet-button:hover{
+opacity: 0.8;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.uber{
+background-color:black;
+color: white;
+border:none;
+height: 30px;
+width: 100px;
+margin-right:8px;
+}
+
+.amazon{
+background-color:yellow;
+border:none;
+height: 30px;
+width: 150px;
+border-radius: 20px;
+}
+.strech{
+background-color: green;
+padding-left: 30px;
+padding-right:30px;
+padding-top: 8px;
+padding-bottom: 8px;
+border: none;
+color: white;
+cursor: pointer;
+transition:  padding-top 2s,
+    padding-bottom 2s,
+    padding-left 2s,
+    padding-right 2s
+}
+.strech:hover{
+
+padding-left: 40px;
+padding-right:40px;
+padding-top: 16px;
+padding-bottom: 16px;
+}

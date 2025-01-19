@@ -1,0 +1,41 @@
+p{
+    font-family: arial;
+}
+
+.text{
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    color: grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    width: 400px;
+}
+
+.request-button{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    margin-right: 20px;
+}
+
+.shedule{
+    background-color:  rgb(238, 238, 238);
+    padding: 1.5%;
+    border: none;
+    font-weight: 500;
+}
